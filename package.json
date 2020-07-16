@@ -7,7 +7,8 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "react-devtool": "react-devtools"
   },
   "dependencies": {
     "axios": "^0.19.2",
@@ -16,7 +17,8 @@
     "react-native": "0.63.1",
     "react-native-gesture-handler": "^1.6.1",
     "react-native-iphone-x-helper": "^1.2.1",
-    "react-native-qrcode": "^0.2.7",
+    "react-native-qrcode-svg": "^6.0.6",
+    "react-native-svg": "^12.1.0",
     "react-native-vector-icons": "^7.0.0",
     "react-navigation": "^4.4.0",
     "reactotron-react-native": "^5.0.0",
@@ -38,6 +40,7 @@
     "eslint-plugin-react-native": "^3.8.1",
     "jest": "^26.1.0",
     "metro-react-native-babel-preset": "^0.60.0",
+    "react-devtools": "^4.8.2",
     "react-test-renderer": "16.13.1"
   },
   "jest": {

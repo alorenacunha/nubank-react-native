@@ -5,6 +5,9 @@ import '~/config/ReactotronConfig';
 
 import Routes from '~/routes';
 
+if (__DEV__) {
+  require('react-devtools');
+}
 const App = () => (
   <>
     <StatusBar barStyle="light-content" backgroundColor="#6D119F" />
